@@ -39,6 +39,8 @@ public class ContaTerminal {
         saldo = scan.nextDouble();
 
         System.out.println("Carregando...");
+        
+        scan.close();
 
         Thread.sleep(2500); //cria uma pausa em milisegundos nas threads. Criada para fins decorativos
 
